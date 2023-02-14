@@ -9,7 +9,6 @@ terraform {
 }
 
 provider "aws" {
-  profile = "dev"
   default_tags {
     tags = {
       env_name = var.env_name
